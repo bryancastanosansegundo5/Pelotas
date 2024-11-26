@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* #contenedor{
+            background-color: bisque;
+            border: 1px solid black
+        }
+        #boton-nueva-bola{
+            display: block;
+            margin: 10px auto;
+            cursor: pointer;
+            background-color: aquamarine;
+            font-size: larger;
+            padding: 5px 5px;
+        }
+        #boton-nueva-bola:hover{
+            background-color: aqua;
+        } */
+      #contenedor {
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      #boton-nueva-bola {
+        display: block;
+        margin: 10px auto;
+        cursor: pointer;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 16px;
+        padding: 5px 5px;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s, transform 0.2s;
+      }
+      #boton-nueva-bola:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="contenedor"></div>
+    <input type="button" value="Booooolaa" id="boton-nueva-bola" />
+    <script type="module" src="js/bola.class.js"></script>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
